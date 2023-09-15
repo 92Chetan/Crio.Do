@@ -27,7 +27,17 @@ for (let i=1; i<=50; i++){
 // Problem 4
 // Write a program to print the numbers from 1 to 15 using while loop.
 
-let i = 1;
-while(i<=15){
-  console.log(i++);
+ let n = 1;
+while(n<=15){
+  console.log(n++);
+
 }
+
+
+// Problem 5 
+// Write a program to print the number from 1 to 15 using do-while loop.
+
+let i =1;
+do{
+  console.log(i++);
+}while(i<=15);
