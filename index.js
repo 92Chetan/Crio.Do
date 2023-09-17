@@ -89,3 +89,17 @@ switch (x){
   console.log("Invalid Input !!")
     break;
 }
+
+// Problem 7
+// Write a program to print numbers from 1 to 10 but not 3 using if condition.
+
+for (i=1; i<=10; i++)
+ {
+   if(i==3)
+   {
+     continue;
+   }
+  console.log(i);
+ }
+
+
