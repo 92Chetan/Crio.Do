@@ -102,4 +102,21 @@ for (i=1; i<=10; i++)
   console.log(i);
  }
 
+// Program 8
+// Write a program to take 3 numbers as an input from the user and find the greatest among them.
 
+
+let x = parseInt(prompt ("Enter First Number: "));
+let y = parseInt(prompt ("Enter Second Number: "));
+let z = parseInt(prompt ("Enter Third Number: "));
+if (x>y) {
+    if (x>z) {
+      console.log(x +" "+ "Is the Greatest Among Three Numbers")
+    } else {
+      console.log(z +" "+ "Is the Greatest Among Three Numbers")
+    }
+  } else if (y>z) {
+    console.log(y +" "+ "Is the Greatest Among Three Numbers")
+  } else {
+    console.log(z +" "+ "Is the Greatest Among Three Numbers")
+  }
