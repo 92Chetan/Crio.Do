@@ -122,3 +122,10 @@ if (x>y) {
   }
 
 // Program 9
+// Write a program to print the odd numbers from 7 to 31 using for loop:
+
+for(i=7; i<=31; i++){
+  if(i%2 !=0){
+  console.log(i);
+  }
+}
