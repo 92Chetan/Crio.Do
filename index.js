@@ -138,3 +138,12 @@ for (i=-20; i<=10; i++){
     console.log(i);
   }
 }
+
+// Program 11
+// Write a program to implement parameterized function:
+
+function sum(num1, num2){
+var sum = num1+num2;
+console.log(sum);
+}
+  sum(1,2);
