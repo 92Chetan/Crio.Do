@@ -178,3 +178,15 @@ function smallest(x,y,z){
     console.log(z +" "+ "is the smallest.");
   }
 }
+
+// Program 14
+// Write a program to find the remainder when one number is multiply by another number using functions (take the inputs from the user).
+
+
+let x = parseInt(prompt("Enter the Dividend"));
+let y = parseInt(prompt("Enter the Divisor"));
+console.log(find_Remainder(x,y));
+function find_Remainder (x,y){
+  remainder = x%y;
+  return (remainder);
+}
