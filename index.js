@@ -1,4 +1,4 @@
-// Problem 1 
+// Problem 1
 // Write a for loop condition to print the numbers from 1 to 10.
 
 for (let i = 1; i <= 10; i++) {
@@ -206,3 +206,93 @@ function Perimeter(x,y) {
   Perimeter = 2*(x+y);
   return(Perimeter);
 }
+
+//-----------------------Session 8 Practice set-----------------------
+
+var restaurantBill = 100;
+function amountToPay(amount){
+   amount = amount+(0.625 * amount);
+  return amount;
+}
+amountToPay(restaurantBill);
+console.log(restaurantBill);
+
+//---------------------------------------------------------------------
+
+function isEquilateral (a,b,angle){
+  if ( a==b && angle == 60){
+    return (true);
+  }
+}
+console.log(isEquilateral(10,10,90));
+
+//---------------------------------------------------------------------
+
+function fish (){
+  var fishcount = 1;
+  console.log (fishcount);
+}
+fish();
+console.log(fishcount);
+
+//---------------------------------------------------------------------
+
+
+function calculateDogAge(age){
+  var dogYears = 7*age;
+  console.log ("Your doggie is "+ dogYears + " years old in dog years");
+}
+calculateDogAge(1);
+calculateDogAge(0.5);
+
+//---------------------------------------------------------------------
+
+function findTriangleType(side1,side2,side3){
+
+if((side1 == side2) && (side1 == side3)){
+  console.log("Equilateral triangle.");
+}
+  else if ((side1 == side2) || (side2 == side3)||(side1 == side3)){
+    console.log("Isosceles triangle.");
+  }
+  else{
+    console.log ("Scalene triangle.");
+  }
+}
+findTriangleType(12,12,12);
+findTriangleType(5,4,3);
+findTriangleType(20,20,31)
+
+//---------------------------------------------------------------------
+
+var x,y;
+var chr ="";
+for (var x=1;x<=5;x++){
+  for (var y=1; y<=x; y++){
+    chr = chr+("*");
+  }
+  console.log(chr);
+  chr='';
+}
+
+//---------------------------------------------------------------------
+
+var a = 1;
+var b = 0;
+while (a <=3)
+  {
+    a++;
+    b = b+ (a*2);
+    console.log(b);
+  }
+
+
+//---------------------------------------------------------------------
+
+function range(length){
+  var a = 5;
+  for (var i=0; i<length; i++){
+    console.log(a);
+  }
+}
+range(3);
