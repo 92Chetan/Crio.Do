@@ -296,3 +296,116 @@ function range(length){
   }
 }
 range(3);
+
+---------------------------------------------------------------------
+
+------------------Session 9 (Post Session)---------------------------
+
+
+var a =4;
+var b=1;
+var c=0;
+if ( a==b) {
+	console.log ( a );
+} else if ( a==c) {
+	console.log ( a );
+} else {
+	console.log (c);
+}
+
+//---------------------------------------------------------------------
+
+
+var grade ='E';
+var result=0;
+switch ( grade ) {
+	case 'A':
+		result = result + 10;
+case 'B':
+		result = result + 9;
+  	case 'C':
+		result = result + 8;  
+   	default:
+result = 0;
+}
+console.log (result);
+
+//---------------------------------------------------------------------
+
+var grade ='A';
+var result=0;
+switch ( grade ) {
+	case 'A':
+		result = result + 10;
+case 'B':
+		result = result + 9;
+  	case 'C':
+		result = result + 8;
+    break;  
+ default:
+result = 0;
+}
+console.log (result);
+
+//---------------------------------------------------------------------
+
+
+function fun (num) {
+	var a=5;
+	for ( var i=0; i<num; i++) {
+		console.log(a);
+	}
+}
+fun(2);
+
+//---------------------------------------------------------------------
+
+
+var a =1;
+if (a>10) {
+	console.log (10);
+}
+else {
+	console.log(a);
+}
+
+//---------------------------------------------------------------------
+
+
+function multiply()  
+{  
+var a=1;  
+var b=2;  
+return a*b;  
+}  
+console.log ( multiply() );
+
+//---------------------------------------------------------------------
+
+
+var a;
+var b;
+a =10;
+b=20;
+a = a + 10;
+b=a;
+console.log(a);
+console.log(b);
+
+//---------------------------------------------------------------------
+
+
+While (3==3) {
+Console.log(“Hello World”);
+}
+
+//---------------------------------------------------------------------
+
+
+var a=0;
+var b=0;
+while (a <3) {
+a++;
+b=b+a;
+console.log(b);
+}
