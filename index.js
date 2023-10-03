@@ -194,24 +194,24 @@ function find_Remainder(x, y) {
 
 let x = parseInt(prompt("Enter the Lenght of the rectangle : "));
 let y = parseInt(prompt("Enter the width of the rectangle :"));
-console.log(calculate_Area(x,y));
-console.log(Perimeter(x,y));
+console.log(calculate_Area(x, y));
+console.log(Perimeter(x, y));
 
-function calculate_Area(x,y){
+function calculate_Area(x, y) {
   Area = x * y;
-  return(Area);
+  return (Area);
 }
 
-function Perimeter(x,y) {
-  Perimeter = 2*(x+y);
-  return(Perimeter);
+function Perimeter(x, y) {
+  Perimeter = 2 * (x + y);
+  return (Perimeter);
 }
 
 //-----------------------Session 8 Practice set-----------------------
 
 var restaurantBill = 100;
-function amountToPay(amount){
-   amount = amount+(0.625 * amount);
+function amountToPay(amount) {
+  amount = amount + (0.625 * amount);
   return amount;
 }
 amountToPay(restaurantBill);
@@ -219,18 +219,18 @@ console.log(restaurantBill);
 
 //---------------------------------------------------------------------
 
-function isEquilateral (a,b,angle){
-  if ( a==b && angle == 60){
+function isEquilateral(a, b, angle) {
+  if (a == b && angle == 60) {
     return (true);
   }
 }
-console.log(isEquilateral(10,10,90));
+console.log(isEquilateral(10, 10, 90));
 
 //---------------------------------------------------------------------
 
-function fish (){
+function fish() {
   var fishcount = 1;
-  console.log (fishcount);
+  console.log(fishcount);
 }
 fish();
 console.log(fishcount);
@@ -238,174 +238,174 @@ console.log(fishcount);
 //---------------------------------------------------------------------
 
 
-function calculateDogAge(age){
-  var dogYears = 7*age;
-  console.log ("Your doggie is "+ dogYears + " years old in dog years");
+function calculateDogAge(age) {
+  var dogYears = 7 * age;
+  console.log("Your doggie is " + dogYears + " years old in dog years");
 }
 calculateDogAge(1);
 calculateDogAge(0.5);
 
 //---------------------------------------------------------------------
 
-function findTriangleType(side1,side2,side3){
+function findTriangleType(side1, side2, side3) {
 
-if((side1 == side2) && (side1 == side3)){
-  console.log("Equilateral triangle.");
-}
-  else if ((side1 == side2) || (side2 == side3)||(side1 == side3)){
+  if ((side1 == side2) && (side1 == side3)) {
+    console.log("Equilateral triangle.");
+  }
+  else if ((side1 == side2) || (side2 == side3) || (side1 == side3)) {
     console.log("Isosceles triangle.");
   }
-  else{
-    console.log ("Scalene triangle.");
+  else {
+    console.log("Scalene triangle.");
   }
 }
-findTriangleType(12,12,12);
-findTriangleType(5,4,3);
-findTriangleType(20,20,31)
+findTriangleType(12, 12, 12);
+findTriangleType(5, 4, 3);
+findTriangleType(20, 20, 31)
 
 //---------------------------------------------------------------------
 
-var x,y;
-var chr ="";
-for (var x=1;x<=5;x++){
-  for (var y=1; y<=x; y++){
-    chr = chr+("*");
+var x, y;
+var chr = "";
+for (var x = 1; x <= 5; x++) {
+  for (var y = 1; y <= x; y++) {
+    chr = chr + ("*");
   }
   console.log(chr);
-  chr='';
+  chr = '';
 }
 
 //---------------------------------------------------------------------
 
 var a = 1;
 var b = 0;
-while (a <=3)
-  {
-    a++;
-    b = b+ (a*2);
-    console.log(b);
-  }
+while (a <= 3) {
+  a++;
+  b = b + (a * 2);
+  console.log(b);
+}
 
 
 //---------------------------------------------------------------------
 
-function range(length){
+function range(length) {
   var a = 5;
-  for (var i=0; i<length; i++){
+  for (var i = 0; i < length; i++) {
     console.log(a);
   }
 }
 range(3);
 
----------------------------------------------------------------------
+//---------------------------------------------------------------------
 
-------------------Session 9 (Post Session)---------------------------
+//------------------Session 9 (Post Session)---------------------------
 
 
-var a =4;
-var b=1;
-var c=0;
-if ( a==b) {
-	console.log ( a );
-} else if ( a==c) {
-	console.log ( a );
+var a = 4;
+var b = 1;
+var c = 0;
+if (a == b) {
+  console.log(a);
+} else if (a == c) {
+  console.log(a);
 } else {
-	console.log (c);
+  console.log(c);
 }
 
 //---------------------------------------------------------------------
 
 
-var grade ='E';
-var result=0;
-switch ( grade ) {
-	case 'A':
-		result = result + 10;
-case 'B':
-		result = result + 9;
-  	case 'C':
-		result = result + 8;  
-   	default:
-result = 0;
+var grade = 'E';
+var result = 0;
+switch (grade) {
+  case 'A':
+    result = result + 10;
+  case 'B':
+    result = result + 9;
+  case 'C':
+    result = result + 8;
+  default:
+    result = 0;
 }
-console.log (result);
+console.log(result);
 
 //---------------------------------------------------------------------
 
-var grade ='A';
-var result=0;
-switch ( grade ) {
-	case 'A':
-		result = result + 10;
-case 'B':
-		result = result + 9;
-  	case 'C':
-		result = result + 8;
-    break;  
- default:
-result = 0;
+var grade = 'A';
+var result = 0;
+switch (grade) {
+  case 'A':
+    result = result + 10;
+  case 'B':
+    result = result + 9;
+  case 'C':
+    result = result + 8;
+    break;
+  default:
+    result = 0;
 }
-console.log (result);
+console.log(result);
 
 //---------------------------------------------------------------------
 
 
-function fun (num) {
-	var a=5;
-	for ( var i=0; i<num; i++) {
-		console.log(a);
-	}
+function fun(num) {
+  var a = 5;
+  for (var i = 0; i < num; i++) {
+    console.log(a);
+  }
 }
 fun(2);
 
 //---------------------------------------------------------------------
 
 
-var a =1;
-if (a>10) {
-	console.log (10);
+var a = 1;
+if (a > 10) {
+  console.log(10);
 }
 else {
-	console.log(a);
+  console.log(a);
 }
 
 //---------------------------------------------------------------------
 
 
-function multiply()  
-{  
-var a=1;  
-var b=2;  
-return a*b;  
-}  
-console.log ( multiply() );
+function multiply() {
+  var a = 1;
+  var b = 2;
+  return a * b;
+}
+console.log(multiply());
 
 //---------------------------------------------------------------------
 
 
 var a;
 var b;
-a =10;
-b=20;
+a = 10;
+b = 20;
 a = a + 10;
-b=a;
+b = a;
 console.log(a);
 console.log(b);
 
 //---------------------------------------------------------------------
 
 
-While (3==3) {
-Console.log(“Hello World”);
+While(3 == 3) {
+  Console.log(“Hello World”);
 }
 
 //---------------------------------------------------------------------
 
 
-var a=0;
-var b=0;
-while (a <3) {
-a++;
-b=b+a;
-console.log(b);
+var a = 0;
+var b = 0;
+while (a < 3) {
+  a++;
+  b = b + a;
+  console.log(b);
 }
+
+// -------- JS-1-B2- October Sprint --------------------
