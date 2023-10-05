@@ -409,6 +409,7 @@ while (a < 3) {
 }
 
 // ----------------------- JS-1-B2- October Sprint --------------------
+// ------------------------------ Session 1  --------------------------
 
 var num;
 console.log(num);
@@ -423,7 +424,7 @@ console.log(number);
 
 var num = 10;
 num = "hello";
-console.log(typeof(num));
+console.log(typeof (num));
 
 //---------------------------------------------------------------------
 
@@ -431,4 +432,99 @@ const name = "crio";
 name = "criodo";
 
 //---------------------------------------------------------------------
+// ------------------------------ Session 2  --------------------------
 
+//--mathematical expression
+console.log(2 + 2);
+
+//--relational expression
+
+console.log(6 > 7);
+console.log(6 < 7);
+
+//-- logical expression
+console.log(5 > 4 && 6 > 7);
+
+console.log(!(true));
+console.log(!(false));
+console.log(!(6 > 7));
+console.log(4 > 5 || 5 < 9);
+
+//--operators
+
+//--Relationals opertors (<,>,<=,>=,==,!=)
+
+console.log(6 > 7);
+console.log(7 > 6);
+console.log(6 <= 6);
+
+console.log(6 === 6); // checks data type and value.
+console.log(6 == 6); // only checks the value.
+
+console.log('6' === 6);
+console.log('6' == 6);
+
+console.log(5 !== 6); //strict
+console.log(5 != 6); // non strict
+
+console.log('6' !== 6); // checks data type and value.
+console.log('6' != 6); // only checks the value.
+
+//--------------------------------------------------------------------
+
+//Prescedence(order of evaluation) - goes left to right.
+
+//  B(DMR)AS
+//Bracket(Divison / Multiplication / Remainder) Addition, Substraction
+
+//--------------------------------------------------------------------
+
+console.log("20" + ('20' / 4));
+
+
+var age = 16;
+if (age > 18) {
+  console.log("can drive");
+}
+else {
+  console.log("cannot drive");
+}
+
+//----Personalised msg using parameterized fucntion.
+
+function bank(name, accountno) {
+  console.log("congratulations " + name + " on successfully updating your KYC @yes bank for account number xxxxxxxx" + accountno);
+}
+
+bank("ajay", 1234);
+bank("amay", 4567);
+bank("anil", 21261);
+
+//--- inclass activity 
+
+function multiply(x, y) {
+  console.log(x * y);
+}
+multiply(2, 3)
+
+////----------------------post Session Quiz----------------------------
+
+const willRain = true;
+if (!willRain || (3 === 3)) {
+  console.log("Wear Raincoat");
+}
+else {
+  console.log("Do not wear a raincoat");
+}
+
+function getSum(a, b) {
+  return a + b;
+}
+console.log(getSum(2, 7));
+
+//--------------------------------------------------------------------
+
+function getDifference(a, b) {
+  return a - b;
+}
+console.log(getDifference(7, 4));
