@@ -528,3 +528,122 @@ function getDifference(a, b) {
   return a - b;
 }
 console.log(getDifference(7, 4));
+
+//---------------------------------------------------------------------
+// ------------------------------ Session 3  --------------------------
+
+//--------If-else chaining-------
+
+let a = 5;
+let b = 6;
+let c = 7;
+if (a >= b && a >= c) {
+  console.log(a);
+} else if (b >= a && b >= c) {
+  console.log(b);
+} else {
+  console.log(c);
+}
+
+//-----------Nested Conditionals---
+
+let a = 5;
+let b = 6;
+let c = 7;
+if (a >= b) {
+  if (a >= c) {
+    console.log(a);
+  }
+} else if (b >= a) {
+  if (b >= c) {
+    console.log(b);
+  } else {
+    console.log(c);
+  }
+}
+
+//------------Stings---
+
+let str = ""; //empty string
+let str1 = "Hello World";
+
+console.log(str.length);
+console.log(str1.length);
+console.log("Hello".length);
+
+console.log("Hey what's up");
+
+//---------Escape sequences---\ 
+
+console.log('This is a single quote (\') and this is a double quote (")');
+
+console.log('This is a backslash \\');
+console.log('This is a backslash \\\\');
+
+console.log("This is new world \n hiiii");
+console.log("This is new world \t hiiii");
+
+
+//-------------Accessing specific string characters---
+
+let str = "Crio.Do is the best place to learn";
+let str = "Hello World"
+console.log(str.length); //11-1
+
+//1. charAt() method
+
+console.log(str.charAt(4));
+
+//2. Sqaure bracket notation
+
+console.log(str[4]);
+
+// //----Access last element----
+
+console.log(str[str.length - 1]);
+console.log(str[str.length - 2]);
+
+let str1 = "raj";
+let str2 = "sahil";  //rs;
+
+console.log(str1[0]); //r
+console.log(str2[0]); //s
+console.log(str1[0] + str2[0]);
+
+//-----String Immutability----
+
+let mystr = "Bob";
+mystr[0] = "J"; //not allowed
+console.log(mystr);
+
+mystr = "Job";
+console.log(mystr);
+
+//----Strict mode---
+
+'use strict'
+let mystr = "Bob";
+mystr[0] = "J"; //not allowed
+console.log(mystr);
+
+//-----------Template strings-----------
+
+let str = `This is a new string
+I am in second line now`;
+console.log(str);
+
+let name = "Rahul";
+let off = 80;
+// console.log("Hey "+name+" Congratualtions! Claim your "+off+" % off on your next order");
+
+console.log(`Hey ${name} COngratulations! Claim your ${off}% off on your next order`);
+
+console.log(`Hey this will result in: ${2 + 1}`);
+console.log(`Hey this will result in: ${2 > 1}`);
+
+
+//------Substring---
+let str = "Crio.Do is the best place to learn";
+let str = "Hello world"
+let result = str.substring(0, 5); //startPos - inclusive, endPos-exculsive
+console.log(result);
