@@ -643,7 +643,28 @@ console.log(`Hey this will result in: ${2 > 1}`);
 
 
 //------Substring---
+
 let str = "Crio.Do is the best place to learn";
 let str = "Hello world"
 let result = str.substring(0, 5); //startPos - inclusive, endPos-exculsive
 console.log(result);
+
+// -------------------- Session3 Post session quiz-----------------
+
+let str = "I love coding, but I sometimes hate it as well!";
+let i = 2;
+let answer = str.substring(i, 10) + "ing,";
+console.log(answer.concat(' m', 'ay', 'be'));
+
+// // //----------------------------------------------------------------
+
+let lang = "LavaScript";
+lang[0] = "J";
+console.log(lang);
+
+// //----------------------------------------------------------------
+
+const playerName = "Ronaldo";
+const jerseyNum = 7;
+const str = `${playerName} is my favorite soccer player. His jersey number is ${jerseyNum}.`;
+console.log(str);
