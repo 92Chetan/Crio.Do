@@ -716,6 +716,24 @@ console.log("Last occurrence index:", lastIndex);
 
 
 // // ------------------------------ Session 4  ------------------------
+
+console.log("0" === false);
+
+// // //------------------Array Referencing-----------------------------
+
+let x = [1, 2, 3]
+let y = x;
+x[0] = 1000;
+console.log(x);
+console.log(y);
+
+// // //------------------arry.push()-----------------------------
+
+const animals = ['pigs', 'goats', 'sheep'];
+animals.push('cows');
+console.log(animals);
+
+
 //---------------------------------Post Sesion Quiz---------------------
 
 // let i = 0;
@@ -776,3 +794,6 @@ console.log(a/scale);
 a = -0;
 scale = 1;
 console.log(a/scale);
+
+// // //----------------------------------------------------------------
+
