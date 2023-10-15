@@ -736,6 +736,43 @@ for (let j = i; j <= 10; j++) {
 
 
 
-// // // //----------------------------------------------------------------
+// // ------------------------------ Session 6  ------------------------
+//---------------------------------Post Sesion Quiz---------------------
 
 
+let arrOfObj = [{name: "Adam", age: 10}, {name: "Alex", age: 12}, {name: "Alice", age: 9}];
+
+console.log(arrOfObj[1]);
+
+let nestObj = {name: {firstName: "Ajay", lastName: "Devgn"}, address: {area: "ABC Nagar", city: "XY city", pinCode: 347002 }};
+
+console.log(nestObj.name.lastName);
+
+// // //----------------------------------------------------------------
+
+let arr = ["Ramesh", "Singh"];
+let obj = {name: "Ramesh", age: 23};
+const {name, age} = obj;
+const [firstName, lastName] = arr;
+if(Array.isArray(obj)) {
+  console.log("Hello World!");
+} else {
+  console.log(name + " " + firstName);
+}
+
+// // //----------------------------------------------------------------
+
+console.log((0.1 + 0.2) === 0.3);
+
+// // //----------------------------------------------------------------
+
+let scale = 0;
+let a = 1;
+console.log(a/scale);
+a = -1; 
+console.log(a/scale);
+a = 0;
+console.log(a/scale);
+a = -0;
+scale = 1;
+console.log(a/scale);
