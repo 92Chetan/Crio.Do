@@ -671,13 +671,13 @@ console.log(str);
 
 // //----------------------------------------------------------------
 
-Problem Description :
-You have been given a function findLength which returns the length of the string. But there is an error in the code, please debug this problem. You can start by uncommenting the code given in the function.
+Problem Description:
+You have been given a function findLength which returns the length of the string.But there is an error in the code, please debug this problem.You can start by uncommenting the code given in the function.
 
 
 Hint 1: In Javascript we can declare strings using single or double quotes i.e "string" or 'string' both are proper declarations of strings.
 
-Hint 2: As long as we use both double or both single quotes we are good to go.
+  Hint 2: As long as we use both double or both single quotes we are good to go.
 
 function findLength() {
   let str = "Crio Course";
@@ -695,7 +695,7 @@ let substring = "time";
 
 let index = str.indexOf(substring);
 
-if(index !== -1) {
+if (index !== -1) {
   console.log(`The substring "${substring}" was found at index ${index}.`);
 } else {
   console.log(`The substring "${substring}" was not found in the string.`);
@@ -704,7 +704,7 @@ if(index !== -1) {
 // // //----------------------------------------------------------------
 
 function findLastOccurrenceIndex(str, k) {
-    return str.lastIndexOf(k);
+  return str.lastIndexOf(k);
 }
 
 
@@ -712,7 +712,7 @@ let inputString = "exampleexample";
 let substring = "example";
 let lastIndex = findLastOccurrenceIndex(inputString, substring);
 
-console.log("Last occurrence index:", lastIndex); 
+console.log("Last occurrence index:", lastIndex);
 
 
 // // ------------------------------ Session 4  ------------------------
@@ -758,21 +758,21 @@ for (let j = i; j <= 10; j++) {
 //---------------------------------Post Sesion Quiz---------------------
 
 
-let arrOfObj = [{name: "Adam", age: 10}, {name: "Alex", age: 12}, {name: "Alice", age: 9}];
+let arrOfObj = [{ name: "Adam", age: 10 }, { name: "Alex", age: 12 }, { name: "Alice", age: 9 }];
 
 console.log(arrOfObj[1]);
 
-let nestObj = {name: {firstName: "Ajay", lastName: "Devgn"}, address: {area: "ABC Nagar", city: "XY city", pinCode: 347002 }};
+let nestObj = { name: { firstName: "Ajay", lastName: "Devgn" }, address: { area: "ABC Nagar", city: "XY city", pinCode: 347002 } };
 
 console.log(nestObj.name.lastName);
 
 // // //----------------------------------------------------------------
 
 let arr = ["Ramesh", "Singh"];
-let obj = {name: "Ramesh", age: 23};
-const {name, age} = obj;
+let obj = { name: "Ramesh", age: 23 };
+const { name, age } = obj;
 const [firstName, lastName] = arr;
-if(Array.isArray(obj)) {
+if (Array.isArray(obj)) {
   console.log("Hello World!");
 } else {
   console.log(name + " " + firstName);
@@ -786,14 +786,32 @@ console.log((0.1 + 0.2) === 0.3);
 
 let scale = 0;
 let a = 1;
-console.log(a/scale);
-a = -1; 
-console.log(a/scale);
+console.log(a / scale);
+a = -1;
+console.log(a / scale);
 a = 0;
-console.log(a/scale);
+console.log(a / scale);
 a = -0;
 scale = 1;
-console.log(a/scale);
+console.log(a / scale);
 
-// // //----------------------------------------------------------------
+// // ------------------------------ Session 7  ------------------------
+//---------------------------------Post Sesion Quiz---------------------
 
+function myFunc(num) {
+  num = num + 10;
+  console.log(num);
+}
+let n = 10;
+myFunc(n);
+console.log(n);
+
+function arrFunc(arr) {
+  arr.push(37);
+  console.log(arr);
+}
+let a = [1, 2];
+let b = [...a];
+arrFunc(b);
+console.log(b);
+console.log(a);
