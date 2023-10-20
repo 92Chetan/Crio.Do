@@ -815,3 +815,60 @@ let b = [...a];
 arrFunc(b);
 console.log(b);
 console.log(a);
+
+// // ------------------------------ Session 8  ------------------------
+//---------------------------------Post Sesion Quiz---------------------
+
+var g = 10;
+function func() {
+  if (g == 10) {
+    var t = 20;
+    let p = 30;
+  }
+  console.log(t);
+  console.log(p);
+}
+func();
+
+// // //----------------------------------------------------------------
+
+Debug and modify the above code such that even though myFunc() stays at line 1 we can see “function executed” logged on the console.
+
+Question :
+
+myFunc();
+var myFunc = function() {
+  console.log("function executed");
+}
+
+Solution : 
+
+var myFunc = function() {
+  console.log("function executed");
+}
+myFunc();
+
+// // //----------------------------------------------------------------
+
+function dispData() {
+  console.log("displayed data");
+}
+function getData(dispData) {
+  console.log("received data");
+  dispData();
+}
+getData(dispData);
+
+// // //----------------------------------------------------------------
+
+
+function outer() {
+  var x = 10;
+  function inner() {
+    console.log(x);
+  }
+  return inner;
+}
+
+var closureFn = outer();
+closureFn();
