@@ -671,13 +671,13 @@ console.log(str);
 
 // //----------------------------------------------------------------
 
-Problem Description:
-You have been given a function findLength which returns the length of the string.But there is an error in the code, please debug this problem.You can start by uncommenting the code given in the function.
+// Problem Description:
+// You have been given a function findLength which returns the length of the string.But there is an error in the code, please debug this problem.You can start by uncommenting the code given in the function.
 
 
-Hint 1: In Javascript we can declare strings using single or double quotes i.e "string" or 'string' both are proper declarations of strings.
+// Hint 1: In Javascript we can declare strings using single or double quotes i.e "string" or 'string' both are proper declarations of strings.
 
-  Hint 2: As long as we use both double or both single quotes we are good to go.
+//   Hint 2: As long as we use both double or both single quotes we are good to go.
 
 function findLength() {
   let str = "Crio Course";
@@ -832,7 +832,7 @@ func();
 
 // // //----------------------------------------------------------------
 
-Debug and modify the above code such that even though myFunc() stays at line 1 we can see “function executed” logged on the console.
+// Debug and modify the above code such that even though myFunc() stays at line 1 we can see “function executed” logged on the console.
 
 Question :
 
@@ -872,3 +872,96 @@ function outer() {
 
 var closureFn = outer();
 closureFn();
+
+// // //----------------------------------------------------------------
+
+// What will be the output?
+
+var a = 10;
+function display(){
+   console.log(a);
+}
+display();
+
+// What will be the output?
+
+function display(){
+  var a = 10;
+}
+console.log(a);
+
+// What will be the output?
+
+function work(){
+  var x = 1
+  var x = 2;
+  console.log(x);
+}
+work();
+
+// What will be the output?
+
+function work(){
+  let x = 1
+  let x = 2;
+  console.log(x);
+}
+work();
+
+// What will be the output?
+
+let x = 1
+function work(){
+  let x = 2;
+  console.log(x);
+}
+work();
+
+// What will be the output?
+
+display();
+
+function display() {
+   console.log('Will this work!');
+}
+
+// What will be the output?
+
+funcExp();
+
+var funcExp = function display() {
+    console.log('Will this work!');
+}
+
+
+// What will be the output?
+
+function greet() {
+  return function() {
+    console.log('Inner function');
+  }
+}
+const returnVal = greet();
+returnVal();
+
+// What will be the output?                          //doubt ... ?
+
+function greet(message) {
+  message();
+}
+function message() {
+  console.log('Hello World');
+}
+
+greet(message);
+
+// What will be the output?
+
+function createBase(baseNumber) {
+  return function(N) {
+    return baseNumber + N;
+  }
+}
+
+var addSix = createBase(6);
+console.log(addSix(10));
