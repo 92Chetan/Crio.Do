@@ -834,14 +834,14 @@ func();
 
 // Debug and modify the above code such that even though myFunc() stays at line 1 we can see “function executed” logged on the console.
 
-Question :
+Question:
 
 myFunc();
 var myFunc = function() {
   console.log("function executed");
 }
 
-Solution : 
+Solution:
 
 var myFunc = function() {
   console.log("function executed");
@@ -878,21 +878,21 @@ closureFn();
 // What will be the output?
 
 var a = 10;
-function display(){
-   console.log(a);
+function display() {
+  console.log(a);
 }
 display();
 
 // What will be the output?
 
-function display(){
+function display() {
   var a = 10;
 }
 console.log(a);
 
 // What will be the output?
 
-function work(){
+function work() {
   var x = 1
   var x = 2;
   console.log(x);
@@ -901,7 +901,7 @@ work();
 
 // What will be the output?
 
-function work(){
+function work() {
   let x = 1
   let x = 2;
   console.log(x);
@@ -911,7 +911,7 @@ work();
 // What will be the output?
 
 let x = 1
-function work(){
+function work() {
   let x = 2;
   console.log(x);
 }
@@ -922,7 +922,7 @@ work();
 display();
 
 function display() {
-   console.log('Will this work!');
+  console.log('Will this work!');
 }
 
 // What will be the output?
@@ -930,7 +930,7 @@ function display() {
 funcExp();
 
 var funcExp = function display() {
-    console.log('Will this work!');
+  console.log('Will this work!');
 }
 
 
@@ -965,3 +965,21 @@ function createBase(baseNumber) {
 
 var addSix = createBase(6);
 console.log(addSix(10));
+
+// // ------------------------------ Session 9  ------------------------
+//---------------------------------Post Sesion Quiz---------------------
+
+// Predict the output of the following code:
+
+const numbers = [1, 2, 3, 4, 5];
+
+const result = numbers.map(x => x * 2).filter(x => x > 5).reduce((acc, curr) => acc + curr);
+
+console.log(result);
+
+// Predict the output of the following code:
+
+let daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+let arr = daysOfWeek.slice(0, 3);
+let arr2 = arr.splice(1, 2, 'Sunday');
+console.log(arr);
