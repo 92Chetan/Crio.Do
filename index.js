@@ -988,67 +988,95 @@ console.log(arr);
 // ----------------------- FE-1-B2- November Sprint --------------------
 // --------------------- Session 1 Post Session Quiz -------------------
 
-1). Following are the correct statemetns :
+// 1). Following are the correct statemetns :
 
-a). <title>tag works if placed inside <head> or <body>. But it's recommended to be added inside <head>.
+// a). <title>tag works if placed inside <head> or <body>. But it's recommended to be added inside <head>.
 
 
-b). Tags like <h1>,<p> are to be added inside the <body> tag.
-  
-c). The <!DOCTYPE html> declaration at the top of the HTML file tells the browser that the content is in HTML5 format.
+// b). Tags like <h1>,<p> are to be added inside the <body> tag.
 
-  // // //----------------------------------------------------------------
-  
-2). Following are the correct statemetns regarding the heading tags ?
+// c). The <!DOCTYPE html> declaration at the top of the HTML file tells the browser that the content is in HTML5 format.
 
-a). These tags are used to display text as headers (larger size and/or bolder than a normal <p> tag).
+//   // // //----------------------------------------------------------------
 
-b). Text wrapped with <h1> is the largest and the size decreases from </h2> to <h6>
+// 2). Following are the correct statemetns regarding the heading tags ?
+
+// a). These tags are used to display text as headers (larger size and/or bolder than a normal <p> tag).
+
+// b). Text wrapped with <h1> is the largest and the size decreases from </h2> to <h6>
+
+// // // //----------------------------------------------------------------
+
+// 3). Which tag closes the <p> tag ?
+
+// </p>
+
+// // // //----------------------------------------------------------------
+
+// 4). Following are the valid HTML Elements ?
+
+// <h1></h1> and <h1> Main Heading </h1>
+
+// // // //----------------------------------------------------------------
+
+// 5). Correct statements regarding HTML, CSS, JS ?
+
+// HTML is the page structure.
+// CSS is for the styling of the page.
+// JS is for the interactive behaviour of the page i.e: functionality.
+
+// // // //----------------------------------------------------------------
+
+// 6). In HTML how can you make the text start on a new line  without changing the paragraph structure ?
+
+// use the <br> before the text.
+
+// // // //----------------------------------------------------------------
+
+// 7). What is the root element in the HTML document ?
+
+// <html></html>
 
 // // //----------------------------------------------------------------
 
-3). Which tag closes the <p> tag ?
+// 8). Which value should be used in the "type" attribute  of the <ol>  element  to display a list of the roman numerals ?
 
-</p>
-
-// // //----------------------------------------------------------------
-
-4). Following are the valid HTML Elements ?
-
-<h1></h1> and <h1> Main Heading </h1>
-
-// // //----------------------------------------------------------------
-
-5). Correct statements regarding HTML, CSS, JS ?
-
-HTML is the page structure.
-CSS is for the styling of the page.
-JS is for the interactive behaviour of the page i.e: functionality.
-
-// // //----------------------------------------------------------------
-  
-6). In HTML how can you make the text start on a new line  without changing the paragraph structure ?
-
-use the <br> before the text.
-
-// // //----------------------------------------------------------------
-
-7). What is the root element in the HTML document ?
-
-<html></html>
-
-// // //----------------------------------------------------------------
-
-8). Which value should be used in the "type" attribute  of the <ol>  element  to display a list of the roman numerals ?
-
-i 
+// i 
 
 
 
+// --------------------- Session 3 Post Session Quiz -------------------
 
-  
+1).
+
+// Both div and span tags are semantic elements ,
+// Only div tag is a semantic element , 
+// Only span tag is a semantic element,
+// Neither the div tag nor the span tag is semantic.        -- correct Answer
+
+2).
+
+// Semantic tags have no impact on SEO, 
+// Semantic tags are only used for applying visual styles to web pages, 
+// Semantic tags provide meaning and structure to the content,-- correct Answer           
+// Semantic tags are deprecated and no longer recommended to use.
+
+3).
+
+// which of the following are css selectors ?
+// ID selectors, 
+// class selectors, 
+// element selectors,
+// all of these.      -- correct Answer
+
+4).
+
+// How to link external css in html file ?
+
+ <link rel="stylesheet" type="text/css" href="styles.css">  
 
 
-  
 
-  
+
+
+
