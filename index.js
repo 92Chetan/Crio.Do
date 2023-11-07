@@ -1073,10 +1073,48 @@ console.log(arr);
 
 // How to link external css in html file ?
 
- <link rel="stylesheet" type="text/css" href="styles.css">  
+// <link rel="stylesheet" type="text/css" href="styles.css">
 
 
 
+// --------------------- Session 3 Learning Outcome Quiz -------------------
 
+1).
 
+// Our browser will throw an error if we don't write the skeleton of the HTML.  -- False Correct Answer
 
+2).
+
+// Which heading defines the most important heading on the web page?  -- h1
+
+3).
+
+// What is the default type of ordered list ? -- Numbers (correct answers)
+
+4).
+
+// By default, the linked page will be displayed in the current browser window. This behaviour can be changed by using which attribute ? -- target (correct answers)
+
+5).
+
+// What is the format of an absolute link in HTML? -- <a href="https://www.google.com">Google</a>
+
+6). 
+
+// Block elements always starts on a new line and inline elements can start on the same line both statements are correct.
+
+7).
+
+// <div> element is often used as a container for other HTML elements, <span> element is an inline container often used to syle part of a text, <span> element take up only the width of its content and can start on the same line. -- all these satements are correct.
+
+8). 
+
+// Semantic elements clearly describes the content within them  --  TRUE (correct answers)
+
+9).
+
+// Should multiple HTML element have the same ID ? What about the same class -- (No for id, Yes for class)
+
+10).
+
+// How to make a hyperlink change color to red when hover over ? -- a:hover{color:red};
