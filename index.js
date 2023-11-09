@@ -1099,7 +1099,7 @@ console.log(arr);
 
 // What is the format of an absolute link in HTML? -- <a href="https://www.google.com">Google</a>
 
-6). 
+6).
 
 // Block elements always starts on a new line and inline elements can start on the same line both statements are correct.
 
@@ -1107,7 +1107,7 @@ console.log(arr);
 
 // <div> element is often used as a container for other HTML elements, <span> element is an inline container often used to syle part of a text, <span> element take up only the width of its content and can start on the same line. -- all these satements are correct.
 
-8). 
+8).
 
 // Semantic elements clearly describes the content within them  --  TRUE (correct answers)
 
@@ -1118,3 +1118,66 @@ console.log(arr);
 10).
 
 // How to make a hyperlink change color to red when hover over ? -- a:hover{color:red};
+
+
+// --------------------- Session 4 Post Session Quiz -------------------
+
+1).
+
+Predict the color of the paragraph within the "main" element.
+< !DOCTYPE html >
+  <html>
+    <head>
+      <title>Activity</title>
+      <style>
+        main {
+          background - color: red;
+      }
+        .main {
+          background - color: blue;
+      }
+        #main {
+          background - color: green;
+      }
+      </style>
+    </head>
+    <body>
+      <main class="main" id="main" style="background-color: yellow;">
+        <p>This is a para inside child</p>
+      </main>
+    </body>
+  </html>
+
+//-- yellow is the correct answer.
+
+2).
+
+Arrange the CSS Selector in the order of specificity from highest to lowest.
+
+(Highest) Inline Style > ID Selector > Class Selector > Element Selector(Lowest)
+
+3). 
+
+In the CSS property background - color: rgba(255, 0, 0, 0.5);, what does the "a" stand for in rgba ?
+
+  (a) Alpha(correct answers)
+
+4).
+
+Given the following CSS code:
+.parent {
+  color: blue;
+}
+
+.child {
+  color: red;
+}
+And the following HTML code:
+
+<div class="parent">
+  <p class="child">Hello, CSS!</p>
+</div>
+Predict the color of the text "Hello, CSS!" in the HTML code:
+
+//-- red is correct answer.
+
