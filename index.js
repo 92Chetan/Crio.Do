@@ -1188,17 +1188,136 @@ Predict the color of the text "Hello, CSS!" in the HTML code:
 Which CSS shorthand property should be used to give an element a solid border with a width of 3pixel and a green color ?
   //-- border: 3px solid green;
 
-2).
+  2).
 
 Which CSS unit is an absolute unit that represents a fixed measurement regardless of the context ?
 
-//-- px (correct answers)
+  //-- px (correct answers)
 
-3). 
+  3). 
 
 How does a felx container arrange its items by default ?
 //-- in a row from left to right.
 
 
+// --------------------- Session 5 Take Home Quiz -------------------
+
+1).
+
+Which of the following adds a 5px margin to top and buttom, and 10px to right and left sides ?
+
+// -- margin: 5px 10px 5px 10px;
+//-- margin: 5px 10px:
+//-- margin-top:5px; margin-right:10px; margin-bottom: 5px; margin-left: 10px;  (all three options are correct).
+
+2). 
+
+Select the valid usage of the "font-family" property.
+
+  //--font-family:Arial;
+  //--font-family: Arial,Helvetica,sans-serif; (both options are correct).
+
+3).
+
+Which of the following can be used to specify the size of properties margin and padding ?
+
+//-- pt,px,rem,% (all are correct).
+
+4).
+
+Which of the below selectors can add border to this HTML tag - <p id="tag" class ="para"> Sometext </p>
+
+//-- p{border: 1px solid black;}
+//-- .para{border: 1px solid black;}
+//-- #tag{border: 1px solid black;}    (all three are correct)
+
+5).
+
+An element doesnt have a border or margin but has a padding of 10px on all sides. It has the "width" property set to 100px. What will be the total width of the element?
+
+//-- 120px 
+
+6).
+
+  Which of the following are valid values of the "font-size" property?
+
+//--  16px,  1rem (both are correct).
+
+7).
+
+  Select the CSS property which sets how thick a character of text should be ?
+
+//-- font-weight 
+
+8).
+
+Which of the following isn't relative CSS unit ?
+
+//-- px 
+
+9).
+
+Which of the following tags adds text formatting (without any additional styles - CSS)?
+
+//-- <b> </b>
+//-- <i> </i>
+//-- <em> </em>    all three are correct.
+
+10).
+
+You have a <div> element with some content nested inside other elements in a page. You want this <div> elements content to take up the whole screen height. Which among the following values can you set its "height" property to do that?
+
+//-- 100vh (correct answer).
+
+11).
+
+  Which of the following is a relative CSS unit?
+
+//-- px (correct answer).
+
+12).
+
+  Assume the font size of the root element is 16px, which of the following properties when set to an element will result in a font-size of 16px in all cases?
+
+//-- 1rem, 16px (both are correct answer).
+
+13).
+
+  Which of the following sets the text color to red?
+
+  //-- color: red;
+  //-- color: #ff0000;
+  //--color: rgb(255,0,0);   all three are correct
+
+  14).
+
+  Which of the following CSS units are measured relative to font size?
+
+  //-- em , rem (both are correct).
+
+  15).
+
+  I have a <div> element with some text content within it and a border added. What is right way to increase the spacing b/w the border and the text content?
+
+//-- set padding.
+
+16).
+
+  Select the correct statements if the font family of an entire page is set using the below statement for the <body> tag
+  font-family: Arial, Helvetica, sans-serif;
+
+// -- If Arial font isn't available on a user's system, but Helvetica is, the page will be displayed to this user in Helvetica font
+
+//-- If Arial and Helvetica fonts aren't available on a user's system, the page will be displayed using one of the "sans-serif" fonts the user have installed. (both are correct).
+
+17).
+
+Select the rgb color denoting blue
+
+//-- rgb(0,0,255).
+
 
   
+
+
+
