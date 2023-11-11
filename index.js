@@ -1181,3 +1181,24 @@ Predict the color of the text "Hello, CSS!" in the HTML code:
 
 //-- red is correct answer.
 
+// --------------------- Session 5 Post Session Quiz -------------------
+
+1).
+
+Which CSS shorthand property should be used to give an element a solid border with a width of 3pixel and a green color ?
+  //-- border: 3px solid green;
+
+2).
+
+Which CSS unit is an absolute unit that represents a fixed measurement regardless of the context ?
+
+//-- px (correct answers)
+
+3). 
+
+How does a felx container arrange its items by default ?
+//-- in a row from left to right.
+
+
+
+  
