@@ -1206,11 +1206,11 @@ How does a felx container arrange its items by default ?
 
 Which of the following adds a 5px margin to top and buttom, and 10px to right and left sides ?
 
-// -- margin: 5px 10px 5px 10px;
-//-- margin: 5px 10px:
-//-- margin-top:5px; margin-right:10px; margin-bottom: 5px; margin-left: 10px;  (all three options are correct).
+  // -- margin: 5px 10px 5px 10px;
+  //-- margin: 5px 10px:
+  //-- margin-top:5px; margin-right:10px; margin-bottom: 5px; margin-left: 10px;  (all three options are correct).
 
-2). 
+  2). 
 
 Select the valid usage of the "font-family" property.
 
@@ -1221,11 +1221,11 @@ Select the valid usage of the "font-family" property.
 
 Which of the following can be used to specify the size of properties margin and padding ?
 
-//-- pt,px,rem,% (all are correct).
+  //-- pt,px,rem,% (all are correct).
 
-4).
+  4).
 
-Which of the below selectors can add border to this HTML tag - <p id="tag" class ="para"> Sometext </p>
+Which of the below selectors can add border to this HTML tag - <p id="tag" class="para"> Sometext </p>
 
 //-- p{border: 1px solid black;}
 //-- .para{border: 1px solid black;}
@@ -1233,23 +1233,23 @@ Which of the below selectors can add border to this HTML tag - <p id="tag" class
 
 5).
 
-An element doesnt have a border or margin but has a padding of 10px on all sides. It has the "width" property set to 100px. What will be the total width of the element?
+An element doesnt have a border or margin but has a padding of 10px on all sides.It has the "width" property set to 100px.What will be the total width of the element ?
 
-//-- 120px 
+  //-- 120px 
 
-6).
+  6).
 
-  Which of the following are valid values of the "font-size" property?
+  Which of the following are valid values of the "font-size" property ?
 
-//--  16px,  1rem (both are correct).
+  //--  16px,  1rem (both are correct).
 
-7).
+  7).
 
   Select the CSS property which sets how thick a character of text should be ?
 
-//-- font-weight 
+  //-- font-weight 
 
-8).
+  8).
 
 Which of the following isn't relative CSS unit ?
 
@@ -1257,33 +1257,33 @@ Which of the following isn't relative CSS unit ?
 
 9).
 
-Which of the following tags adds text formatting (without any additional styles - CSS)?
+Which of the following tags adds text formatting(without any additional styles - CSS) ?
 
-//-- <b> </b>
-//-- <i> </i>
-//-- <em> </em>    all three are correct.
+  //-- <b> </b>
+  //-- <i> </i>
+  //-- <em> </em>    all three are correct.
 
-10).
+  10).
 
-You have a <div> element with some content nested inside other elements in a page. You want this <div> elements content to take up the whole screen height. Which among the following values can you set its "height" property to do that?
+You have a < div > element with some content nested inside other elements in a page.You want this < div > elements content to take up the whole screen height.Which among the following values can you set its "height" property to do that ?
 
-//-- 100vh (correct answer).
+  //-- 100vh (correct answer).
 
-11).
+  11).
 
-  Which of the following is a relative CSS unit?
+  Which of the following is a relative CSS unit ?
 
-//-- px (correct answer).
+  //-- px (correct answer).
 
-12).
+  12).
 
-  Assume the font size of the root element is 16px, which of the following properties when set to an element will result in a font-size of 16px in all cases?
+  Assume the font size of the root element is 16px, which of the following properties when set to an element will result in a font - size of 16px in all cases ?
 
-//-- 1rem, 16px (both are correct answer).
+  //-- 1rem, 16px (both are correct answer).
 
-13).
+  13).
 
-  Which of the following sets the text color to red?
+  Which of the following sets the text color to red ?
 
   //-- color: red;
   //-- color: #ff0000;
@@ -1291,20 +1291,20 @@ You have a <div> element with some content nested inside other elements in a pag
 
   14).
 
-  Which of the following CSS units are measured relative to font size?
+  Which of the following CSS units are measured relative to font size ?
 
   //-- em , rem (both are correct).
 
   15).
 
-  I have a <div> element with some text content within it and a border added. What is right way to increase the spacing b/w the border and the text content?
+  I have a < div > element with some text content within it and a border added.What is right way to increase the spacing b / w the border and the text content ?
 
-//-- set padding.
+  //-- set padding.
 
-16).
+  16).
 
-  Select the correct statements if the font family of an entire page is set using the below statement for the <body> tag
-  font-family: Arial, Helvetica, sans-serif;
+  Select the correct statements if the font family of an entire page is set using the below statement for the < body > tag
+  font - family: Arial, Helvetica, sans - serif;
 
 // -- If Arial font isn't available on a user's system, but Helvetica is, the page will be displayed to this user in Helvetica font
 
@@ -1317,7 +1317,27 @@ Select the rgb color denoting blue
 //-- rgb(0,0,255).
 
 
-  
+// --------------------- Session 6 Post Session Quiz -------------------
+
+1). 
+
+Which CSS property should be used to make a container a flex container ?
+
+  //-- display: flex;  
+
+  2).
+
+Which CSS property is used to control whether flex items should wrap to multiple lines if they exceed the width of the flex container ?
+
+  //-- flex-wrap:
+
+  3).
+
+Which CSS feature allows for defining breakpoints for styles in a web page ?
+
+//-- media queries.
+
+
 
 
 
